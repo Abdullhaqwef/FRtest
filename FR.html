@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Swamp Store Clone</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+</head>
+<body>
+    <!-- شريط التنقل -->
+    <nav class="navbar">
+        <div class="container">
+            <h1 class="logo">Fbi Royalty Store</h1>
+            <ul class="nav-links">
+                <li><a href="#">الرئيسية</a></li>
+                <li><a href="#products">المتجر</a></li>
+                <li><a href="#faq">الدعم الفني</a></li>
+            </ul>
+            <form class="search-bar">
+                <input type="text" placeholder="ابحث عن منتج...">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+        </div>
+    </nav>
+
+    <!-- قسم البطل -->
+    <section class="hero" data-aos="fade-up">
+        <div class="overlay"></div>
+        <div class="container">
+            <h2>مرحبًا بك في <span class="text-green-400">FBI Royalty Store</span></h2>
+            <p>أفضل مكان للحصول على المنتجات الرقمية بأسعار تنافسية</p>
+        </div>
+    </section>
+
+    <!-- بطاقات المنتجات -->
+    <section id="products" class="products">
+        <div class="container">
+            <h3>المنتجات المميزة</h3>
+            <div class="product-grid">
+                <!-- بطاقة المنتج -->
+                <div class="product-card" data-aos="fade-right">
+                    <img src="https://via.placeholder.com/300" alt="Product">
+                    <h4>المنتج الأول</h4>
+                    <p>وصف مختصر للمنتج.</p>
+                    <div class="rating">
+                        ⭐⭐⭐⭐☆ (4.5)
+                    </div>
+                    <a href="product-details.html" class="btn-secondary">عرض التفاصيل</a>
+                </div>
+                <!-- تكرار بطاقة المنتج -->
+                <div class="product-card" data-aos="fade-left">
+                    <img src="https://via.placeholder.com/300" alt="Product">
+                    <h4>اسم المنتج</h4>
+                    <p>وصف مختصر للمنتج.</p>
+                    <div class="rating">
+                        ⭐⭐⭐☆☆ (3.0)
+                    </div>
+                    <a href="product-details.html" class="btn-secondary">عرض التفاصيل</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الأسئلة الشائعة -->
+    <section id="faq" class="faq" data-aos="fade-up">
+        <div class="container">
+            <h3>الأسئلة الشائعة</h3>
+            <div class="faq-item">
+                <h4>كيف يمكنني استلام المنتج؟</h4>
+                <p>يتم تسليم المنتج مباشرة عبر البريد الإلكتروني أو عبر حسابك على الموقع.</p>
+            </div>
+            <div class="faq-item">
+                <h4>هل يمكنني استرداد الأموال؟</h4>
+                <p>تُطبق سياسة استرداد الأموال حسب شروط الاستخدام.</p>
+            </div>
+            <div class="faq-item">
+                <h4>هل هناك عروض خاصة؟</h4>
+                <p>نعم، لدينا عروض خاصة يتم تحديثها بشكل مستمر. تابع المتجر للحصول على أحدث العروض.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- التذييل -->
+    <footer class="footer">
+        <div class="container">
+
+    
+            <!-- قسم الروابط المهمة -->
+            <div class="footer-section">
+                <h4>روابط مهمة</h4>
+                <ul>
+                    <li><a href="#">الرئيسية</a></li>
+                    <li><a href="#">عن الشركة</a></li>
+                    <li><a href="#">الخدمات</a></li>
+                    <li><a href="#">الأسئلة الشائعة</a></li>
+                    <li><a href="#">اتصل بنا</a></li>
+                </ul>
+            </div>
+    
+            <!-- قسم التواصل الاجتماعي -->
+            <div class="footer-section">
+                <h4>تواصل معنا</h4>
+                <div class="social-icons">
+                 <a href="https://www.facebook.com/FbiRoyalty" target="_blank"><i class="fab fa-facebook"></i></a>
+                 <a href="https://twitter.com/FbiRoyalty" target="_blank"><i class="fab fa-twitter"></i></a>
+                 <a href="https://www.instagram.com/FbiRoyalty" target="_blank"><i class="fab fa-instagram"></i></a>
+
+                    <a href="https://www.youtube.com/watch?v=hte2_Shjtgc&list=RDsj7SAG3ZEWU&index=3" target="_blank"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+      
+        <!-- قسم حقوق النشر -->
+            <div class="footer-section">
+                <h4>حقوق النشر</h4>
+                <p>&copy; 2025 Fbi Royalty Store. جميع الحقوق محفوظة.</p>
+            </div>
+        </div>
+    </footer>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+</html>
